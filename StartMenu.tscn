@@ -75,5 +75,16 @@ theme_override_font_sizes/font_size = 20
 text = "Quit
 "
 
+[node name="TestCards" type="Button" parent="."]
+layout_mode = 0
+offset_left = 516.0
+offset_top = 529.0
+offset_right = 748.0
+offset_bottom = 594.0
+theme_override_fonts/font = ExtResource("2_hq1mw")
+theme_override_font_sizes/font_size = 20
+text = "Test Cards"
+
 [connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
 [connection signal="pressed" from="QuitButton" to="." method="_on_quit_button_pressed"]
+[connection signal="pressed" from="TestCards" to="." method="_on_test_cards_pressed"]

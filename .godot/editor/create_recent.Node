@@ -1,4 +1,8 @@
-Node
+Button
+Marker2D
 Sprite2D
+PathFollow2D
+Path2D
+Node
 CollisionShape2D
 Area2D

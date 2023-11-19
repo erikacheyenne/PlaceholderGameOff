@@ -3,3 +3,8 @@ res://Card.tscn
 res://MainCard.tscn
 res://deck.tscn
 res://deck.gd
+res://hand.tscn
+res://hand.gd
+res://StartMenu.gd
+res://StartMenu.tscn
+res://bg.tscn
