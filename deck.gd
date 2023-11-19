@@ -57,8 +57,7 @@ func make_deck():
 		card.cardname = card_names[i]
 		card.cardvalue = card_values[i]
 		card.cardsuit = card_suits[i]
-#		card.connect("card_selected",get_tree().get_root().get_node("MainCard"), "_card_selected")
-		card.connect("card_selected",get_tree().get_root().get_node("MainCard"))
+		card.connect("card_selected",get_tree().get_root().get_node("MainCard"), "_card_selected")
 		deck.append(card)
 	deck.shuffle()
 	pass
