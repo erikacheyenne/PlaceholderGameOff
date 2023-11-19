@@ -1,1 +1,5 @@
 res://game.tscn
+res://Card.tscn
+res://MainCard.tscn
+res://deck.tscn
+res://deck.gd
